@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Miguel Diaz Olivares</title>
+
+    <!-- Fuente decorativa -->
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <div id="sobre-inicial">
+  <div class="sobre">
+    <p>Haz clic para abrir la invitación</p>
+  </div>
+</div>
+
+    <!-- Música de fondo -->
+    <audio id="musica-boda" autoplay loop>
+        <source src="cancion fondo.mpeg" type="audio/mpeg">
+    </audio>
+
+    <button id="btn-musica">⏯️ Música</button>
+    
+    <div class="hero fade-in">
+        <div class="overlay">
+            <h1>Juan Miguel Diaz Olivares</h1>
+            <p class="subtitle">✨ Invitación a Aniversario Luctuoso ✨</p>
+            <div id="countdown" class="countdown"></div>
+        </div>
+    </div>
+
+    <section class="familia fade-in">
+    <div class="caja-texto">
+        <h2>Con la bendición de nuestros padres</h2>
+        <p>la familia de Juan Miguel Diaz Olivares</p>
+        <p>su madre, padre, hermanos e hijos</p>
+        <h3>invitan a usted a acompañarnos en la Misa de Aniversario Luctuoso</h3>
+    </div>
+    </section>
+
+    <section class="evento fade-in">
+    <div class="caja-texto">
+        <h2>Ceremonia Religiosa</h2>
+        <p><strong>Capilla del panteòn de Santiago Tepalcapa</strong></p>
+        <p><strong>24 de Febrero de 2026 - 12:45 PM</strong></p>
+
+    <!-- Enlace de la ubiocacion donde sera el evento -->
+        <div class="mapa-ubicacion">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3758.1065645349454!2d-99.20836712499542!3d19.622741381697594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d21fd80a7e2bff%3A0xd2457c4c726f2b9d!2spanteon%20del%20pueblo%20de%20Santiago%20Tepalcapa!5e0!3m2!1ses-419!2smx!4v1768500865626!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    </section>
+
+
+
+    <div>
+    <section class="rsvp fade-in">
+        <h1>Con cariño Familia Dìaz Olivares</h1>
+        <h1>"Aunque ya no podamos verte, vivirás siempre en nuestros corazones.El amor no muere, solo se transforma en recuerdo eterno"</h1>
+        <form id="form-rsvp">
+
+        </form>
+        <p id="mensaje"></p>
+        <div id="lista-invitados"></div>
+    </section>
+</div>
+
+  </div>
+</section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
